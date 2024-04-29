@@ -21,7 +21,7 @@ public class LiverpoolHome extends BaseTest {
 	@FindBy(xpath = "//input[@id= 'mainSearchbar']/following::div[@class= 'input-group-append']")
 	public WebElement searchButton;
 
-	@FindBy(xpath = "//ul[@class = 'row p-2 sayt-child']")
+	@FindBy(xpath = "//ul[@class = 'row p-2 sayt-child1']")
 	protected WebElement sugestedProductsTable;
 	
 	@FindBys({
